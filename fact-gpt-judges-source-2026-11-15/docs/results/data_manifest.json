@@ -1,0 +1,34 @@
+{
+  "source_sha256": "017719dcc9b3ff0a3507e333d43c4dc0316a1c217985cafc4f6fd96986a8f63b",
+  "original_rows": 37900,
+  "source_mapping_holds": 2616,
+  "held_by_split": {
+    "train": 1885,
+    "test": 385,
+    "validation": 346
+  },
+  "accepted_excerpts": 8,
+  "excerpt_reviewed": 32,
+  "excerpt_held": 24,
+  "semantic_policy": "Dominant target passage: checkable assertion type (not verified truth) versus subjective evaluation/recommendation. Attributed reports judged as reports; bare quotes judged on content. Modal/first-person terms alone do not determine label. Uncertain targets held.",
+  "new_independent_articles": 0,
+  "part2_transformer_finetuning": false,
+  "clean": {
+    "rows": 35284,
+    "splits": {
+      "train": 22193,
+      "test": 6770,
+      "validation": 6321
+    },
+    "snapshot_sha256": "e37d7539fb7b8d415c168bc7f442256203eeee64c1cb0aea3fe3f72f57a4e762"
+  },
+  "enriched": {
+    "rows": 35292,
+    "splits": {
+      "train": 22201,
+      "test": 6770,
+      "validation": 6321
+    },
+    "snapshot_sha256": "f8bd2e4307952244b57c712acfcbecb910cbeebc4170b066238ef7cfdcdf58b6"
+  }
+}

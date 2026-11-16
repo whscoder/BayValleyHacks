@@ -1,0 +1,4 @@
+variant,model,split,rows,accuracy,macro_f1,accepted_opinion_precision,accepted_factual_exclusions,target_met,passes_safety
+enriched,lexical_lr_C4_balancedTrue_native,test,6770,0.8375184638109305,0.8331290338540789,0.9456217512994802,136,False,False
+enriched,hybrid_1_lr_C1_balancedFalse_native,test,6770,0.8533234859675037,0.8487198125015991,0.9498680738786279,133,False,False
+enriched,fixed_previous_stack,test,6770,0.8589364844903988,0.8535789405147107,0.949134581419993,144,False,False

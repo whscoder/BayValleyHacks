@@ -1,0 +1,13 @@
+{
+  "scope": "All confirmation and additional remaining-validation rows, from groups excluded from route fitting. Includes a post-hoc stress extension; not an independent architecture test. No policy retuning.",
+  "rows": 1925,
+  "groups": 1923,
+  "baseline_accuracy": 0.8883116883116883,
+  "router_accuracy": 0.8877922077922078,
+  "uncertainty_control_accuracy": 0.8888311688311689,
+  "baseline_macro_f1": 0.886607383321703,
+  "router_macro_f1": 0.8860652108149818,
+  "corrected": 8,
+  "introduced": 9,
+  "expert_calls": 213
+}

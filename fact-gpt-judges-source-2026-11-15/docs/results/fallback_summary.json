@@ -1,0 +1,22 @@
+{
+  "rows": 6321,
+  "old_review_rows": 4807,
+  "new_review_rows": 3651,
+  "old_review_rate": 0.7604809365606707,
+  "new_review_rate": 0.5775984812529663,
+  "relative_reduction": 0.24048262949864785,
+  "effective_thresholds": {
+    "fact": 0.81,
+    "opinion": 0.9,
+    "mixed": 0.81
+  },
+  "opinion_factual_guards": true,
+  "weights_unchanged": true,
+  "api_calls_made": 0,
+  "scope": "Offline validation replay through the actual updated backend function; not live traffic or independent accuracy.",
+  "runtime": {
+    "numpy": "1.26.4",
+    "pandas": "3.0.3",
+    "sklearn": "1.3.2"
+  }
+}

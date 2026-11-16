@@ -1,0 +1,216 @@
+{
+  "date": "2026-11-15",
+  "scope": "Clean source-only judge repository; no original Git history, credentials, raw corpora or downloaded neural weights.",
+  "files": [
+    {
+      "path": ".dockerignore",
+      "bytes": 101,
+      "sha256": "c98aa2ded91d4d0c88a3d58e6d23757517809f77095d52b5db8ee3ea0cf21285"
+    },
+    {
+      "path": ".env.example",
+      "bytes": 308,
+      "sha256": "c71637cf2bb806bea80fd9bb8d2e16b5e0a75bfa4aac538b140bf33bc8c6f15d"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 287,
+      "sha256": "e95bc646e2753fa65f52e897a2ab9f24519a58bc94c65808f408020ea4342a7a"
+    },
+    {
+      "path": "Dockerfile",
+      "bytes": 889,
+      "sha256": "754308c75f758e6ea7d94da67ee8c076bad0103710b07c9b75c54116890ea7e8"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4513,
+      "sha256": "94960f1532fb40dc8c8e1e2bf358db169a6f9729e922b842d23389fdba973571"
+    },
+    {
+      "path": "back-end/Ml_datapreprocessing.py",
+      "bytes": 19560,
+      "sha256": "0986082074a923505198edfa6207e24583daba230cb7ad36177584b38203d3c3"
+    },
+    {
+      "path": "back-end/ai_prompts.py",
+      "bytes": 20884,
+      "sha256": "cee62366cb0ae6031b247d343eca24f488af56e27e517d837a5c04185e6ed7bd"
+    },
+    {
+      "path": "back-end/home.py",
+      "bytes": 147680,
+      "sha256": "72931909cd153ea0136ae5e825d0de87c52a05d82be686f85a77363153129869"
+    },
+    {
+      "path": "back-end/mltraintest.py",
+      "bytes": 14518,
+      "sha256": "f22361f63a67d65dbfc3e0e4ab994e00a014ab3bbdc12429d6b72663a0fd6eb4"
+    },
+    {
+      "path": "back-end/podcast.py",
+      "bytes": 31120,
+      "sha256": "0a9e60bd22cfa50a198d17c4584838b4ef4bd0c1793ba453683813e8f009344a"
+    },
+    {
+      "path": "back-end/test_article_jobs.py",
+      "bytes": 15145,
+      "sha256": "d2d197840fa95a11f5dc83d9c3882d488a03a99e05aeb35b3175a4005737a316"
+    },
+    {
+      "path": "back-end/test_fact_opinion_route.py",
+      "bytes": 33513,
+      "sha256": "08e88babded3d725d5f8e05c62df6ff868f1d059738f5b5186f9520bb6f95644"
+    },
+    {
+      "path": "back-end/test_home_quotes.py",
+      "bytes": 7163,
+      "sha256": "d59cee21dd615a9b65942a9dddff56a0b8bae14d53e56c49cf723808bbfb16cd"
+    },
+    {
+      "path": "back-end/test_podcast.py",
+      "bytes": 34583,
+      "sha256": "45db9073986927780e1bb5b415cd2af4f62521f62b20e55583e686a2b4574005"
+    },
+    {
+      "path": "back-end/test_research_contract.py",
+      "bytes": 22451,
+      "sha256": "fa8dec5d27f617f75c4ae81ea4e4a0974ef4c91ab0a15b0e0b047a80b823a054"
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 981,
+      "sha256": "e2b1f8b8e0b04c3e3e13d1edf8a3437d355a90837f814df85943781830d55cc0"
+    },
+    {
+      "path": "data/fact_opinion/processed/fact_opinion_classifier.pkl",
+      "bytes": 13191542,
+      "sha256": "6a27d75ab18bd22de5648351e64fa246c49e0b64428d893b5abca9aa53434582"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 2943,
+      "sha256": "5158f94b8f532755ffb9f587f8542554e25c3b3b639b093c2d751356538ba7bb"
+    },
+    {
+      "path": "docs/ML_RESULTS.md",
+      "bytes": 2962,
+      "sha256": "9d2dbd87c7c640af6bd8a067f92e8706e3efc5ab03d70c30bf5d2cb8de897766"
+    },
+    {
+      "path": "docs/results/data_manifest.json",
+      "bytes": 1104,
+      "sha256": "6c403115ce181068b6bf14c25ebd42addbeaa1c520a90426dfcb18595df4e8bf"
+    },
+    {
+      "path": "docs/results/fallback_summary.json",
+      "bytes": 590,
+      "sha256": "52c1048578a85bcc78ec39decf4f2310194293e688aecfffb1f3a02c0222cdf3"
+    },
+    {
+      "path": "docs/results/model_comparison.csv",
+      "bytes": 493,
+      "sha256": "019e6f8b813483f7a87e7e80f511435cb4b5643fb5814764a79ee0ad9f62173a"
+    },
+    {
+      "path": "docs/results/router_summary.json",
+      "bytes": 527,
+      "sha256": "b2668440a66d0775d2871b49e1b990a027daf97e1cbe0f57eaacf5f7bf3974ec"
+    },
+    {
+      "path": "front-end/api.js",
+      "bytes": 2942,
+      "sha256": "7ba8f696ac6eed3f36bf3002a3103415450b97416530d53fff292b61825e8c09"
+    },
+    {
+      "path": "front-end/article.js",
+      "bytes": 1059,
+      "sha256": "d6f16f556ef1e34a939fd175773bd08c3b7a01c5d158a129245f776f566b7664"
+    },
+    {
+      "path": "front-end/backendClient.js",
+      "bytes": 3556,
+      "sha256": "579830acd4b05901e0311d495bb2e3d21b093627739066fb90dc2f3be403309d"
+    },
+    {
+      "path": "front-end/background.js",
+      "bytes": 14081,
+      "sha256": "c997a53d4343fce362a72d76c637642a651b8ca0fc168a181d3ecc3fac0705c7"
+    },
+    {
+      "path": "front-end/config.js",
+      "bytes": 465,
+      "sha256": "61c5672f638183883a67eb8b4110b2396c4c2edb307499219107cad0a366520e"
+    },
+    {
+      "path": "front-end/extension.css",
+      "bytes": 14160,
+      "sha256": "161e766843f91a94d02ecd2fe7386ae8774c61d9aaac1332b37c1a992ca3008b"
+    },
+    {
+      "path": "front-end/extension.html",
+      "bytes": 2003,
+      "sha256": "55a3b2fe4277744e15c774097f2bdc47b4611b309eaf3b9d513e1e85ccb4f55e"
+    },
+    {
+      "path": "front-end/manifest.json",
+      "bytes": 510,
+      "sha256": "18ae78c59e582874f9efa589b8902250cfdb41138b13607514e69a70650b65d0"
+    },
+    {
+      "path": "front-end/parseScript.js",
+      "bytes": 42689,
+      "sha256": "6c8ce20d9688ae17f3d05b6dd353c3f9deda217ea9c8f8f6d4f93c7ee797ebb0"
+    },
+    {
+      "path": "front-end/podcast.js",
+      "bytes": 3599,
+      "sha256": "575eaafc232460591aec8dddfb281d7b801ac36b67596636506c5b1dace1adfc"
+    },
+    {
+      "path": "front-end/popup.js",
+      "bytes": 23516,
+      "sha256": "0cadbfe2a9668bee98b05ac2fe9329659559fdb8bfa9ac13d10bc86e25e839c5"
+    },
+    {
+      "path": "front-end/popupRenderState.js",
+      "bytes": 1685,
+      "sha256": "196bfad19a321796b1e971ef64c92a88c3e516db12bf837cd771aa71edf3e109"
+    },
+    {
+      "path": "front-end/test_article_helpers.mjs",
+      "bytes": 868,
+      "sha256": "2272b89b10438dacf69c6b40f37f0d61ee0999440cfa7671ddaea72f0d988633"
+    },
+    {
+      "path": "front-end/test_background_lifecycle.mjs",
+      "bytes": 2664,
+      "sha256": "490cfb50c43454ead9662d630248891c58ead453c7f7d73e19d99361e0b17986"
+    },
+    {
+      "path": "front-end/test_podcast_helpers.mjs",
+      "bytes": 1863,
+      "sha256": "88af4fec48e07abff83c36bc7315406c35fa720253671a4992e107b550469ef2"
+    },
+    {
+      "path": "front-end/test_popup_render_state.mjs",
+      "bytes": 2038,
+      "sha256": "e84d984434d71b9144b00076a6b3d12900e2d40f7b76eb827513598b85a26024"
+    },
+    {
+      "path": "front-end/test_presenters.mjs",
+      "bytes": 3734,
+      "sha256": "e178158f90ba69b7073cb570415dff7691bedceb9aeaad0ce9bed8e340b0f0a7"
+    },
+    {
+      "path": "front-end/test_research_source.mjs",
+      "bytes": 710,
+      "sha256": "2e549e79bfa2138346159a1aef2905a4042273a3767fcf05d9c03fbe6ac9170a"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 204,
+      "sha256": "320129addaf9544f6194eadf166700c4f6e07b84627eb2517324faf6ba96db0f"
+    }
+  ]
+}
